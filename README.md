@@ -7,7 +7,7 @@ A beautiful interactive CLI for quickly navigating and opening your projects wit
 ### One-Line Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/kai/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Kirana-Labs/kai/main/install.sh | bash
 ```
 
 Then add the shell integration:
@@ -37,10 +37,8 @@ echo 'eval (kai init | string collect)' >> ~/.config/fish/config.fish && source 
 Download and install the latest binary:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/kai/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Kirana-Labs/kai/main/install.sh | bash
 ```
-
-**Note:** Update `YOUR_USERNAME` to match your GitHub username.
 
 ### Option 2: Build from Source
 
@@ -48,7 +46,7 @@ If you prefer to build from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/kai.git
+git clone https://github.com/Kirana-Labs/kai.git
 cd kai
 
 # Install dependencies
