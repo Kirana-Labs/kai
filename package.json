@@ -1,0 +1,32 @@
+{
+  "name": "kai",
+  "version": "1.0.0",
+  "description": "A CLI for quickly navigating and opening projects",
+  "module": "index.ts",
+  "type": "module",
+  "private": false,
+  "bin": {
+    "kai": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "install-global": "bun link"
+  },
+  "keywords": ["cli", "tui", "project", "navigation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fuse.js": "^7.1.0",
+    "ink": "^6.3.1",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
